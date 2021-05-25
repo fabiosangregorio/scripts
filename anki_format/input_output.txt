@@ -1,0 +1,2 @@
+1. Rappresentare per l'input [$]x[/$] tutti i possibili [$]2^{56}[/$] valori di [$]z[/$] che posso produrre per tutti i [$]2^{56}[/$] valori di [$]k_1[/$] possibili
+2. Provare a invertire [$]y[/$] con le diverse chiavi [$]k_2[/$] e verificare se trovo uno degli [$]z[/$] trovati nella prima fase
