@@ -1,2 +1,7 @@
-1. Rappresentare per l'input [$]x[/$] tutti i possibili [$]2^{56}[/$] valori di [$]z[/$] che posso produrre per tutti i [$]2^{56}[/$] valori di [$]k_1[/$] possibili
-2. Provare a invertire [$]y[/$] con le diverse chiavi [$]k_2[/$] e verificare se trovo uno degli [$]z[/$] trovati nella prima fase
+Prima fase (presa d'impegno):
+[$]A[/$] sceglie dei nonce [$]R_1[/$] e [$]R_2[/$]
+[$]A[/$] costruisce un messaggio concatenando [$]R_1,R_2,b[/$]
+[$]A[/$] invia a [$]B[/$] [$]H(R_1,R_2,b)[/$] ed [$]R_1[/$]
+Seconda fase (rivelazione dell'impegno):
+[$]A[/$] invia a [$]B[/$] il messaggio completo [$]R_1,R_2,b[/$]
+[$]B[/$] verifica che l'hash coincida e ha quindi la garanzia che sia stato precedentemente scelto [$]b[/$]
